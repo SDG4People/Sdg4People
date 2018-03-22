@@ -1,5 +1,5 @@
 # Sdg4People
-To help establish the People as the rightful stakeholders for SDG. States in collaboration with the People and NGOs can achieve Sustainable Development together!
+To help establish the People as the rightful stakeholders for the SDGs. States in collaboration with the People and NGOs can achieve Sustainable Development together!
 
 SDG4People is an open source initiative sponsored by [Khmers Kampuchea-Krom Federation](https://www.khmerkrom.org) and the [Hawaii Institute For Human Rights](http://hawaii-institute-for-humanrights.org) with idea of empowering the People to drive the policy implementations for the [SDGs](http://www.un.org/sustainabledevelopment/sustainable-development-goals). Built for people by people who are passionate about Human Rights and improving people's living conditions around the globe. 
 
