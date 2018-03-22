@@ -17,4 +17,4 @@ What This App Will Do:
 
 For the People by other People (amazing developers!) to help better our world; one village, one town, one city, one state, one country at a time!
 
-If you are interested in joining our team of passionate developers please reach out to us at sdg4people@khmerkrom.org or join our slack channel at sdg4people.slack.com
+If you are interested in joining our team of passionate volunteer developers please reach out to us at sdg4people@khmerkrom.org or join our slack channel at sdg4people.slack.com
