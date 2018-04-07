@@ -1,13 +1,13 @@
 {
-  "name": "mern-starter",
+  "name": "sdg4People",
   "version": "2.0.0",
   "description": "Boilerplate project for building Isomorphic apps using React and Redux",
   "scripts": {
-    "test": "cross-env NODE_ENV=test PORT=8080 MONGO_URL=mongodb://localhost:27017/mern-test node_modules/.bin/nyc node --harmony-proxies node_modules/.bin/ava",
+    "test": "cross-env NODE_ENV=test PORT=8080 MONGO_URL=mongodb://localhost:27017/sdg-test node_modules/.bin/nyc node --harmony node_modules/.bin/ava",
     "watch:test": "npm run test -- --watch",
     "cover": "nyc npm run test",
     "check-coverage": "nyc check-coverage --statements 100 --branches 100 --functions 100 --lines 100",
-    "start": "cross-env BABEL_DISABLE_CACHE=1 NODE_ENV=development nodemon index.js",
+    "start": "cross-env NODE_ENV=development nodemon index.js",
     "start:prod": "cross-env NODE_ENV=production node index.js",
     "bs": "npm run clean && npm run build && npm run build:server && npm run start:prod",
     "build": "cross-env NODE_ENV=production webpack --config webpack.config.prod.js",
@@ -22,12 +22,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Hashnode/mern-starter.git"
+    "url": "git+https://github.com/SDG4People/Sdg4People.git"
   },
   "bugs": {
-    "url": "https://github.com/Hashnode/mern-starter/issues"
+    "url": "https://github.com/SDG4People/Sdg4People/issues"
   },
-  "homepage": "https://github.com/Hashnode/mern-starter#readme",
+  "homepage": "https://github.com/SDG4People/Sdg4People#readme",
   "author": "Prashant Abhishek <prashant.abhishek7g@gmail.com>, Mayank Chandola <imayankchd@gmail.com>, Sandeep Panda <sandeep@hashnode.com>, Syed Fazle Rahman <fazle@hashnode.com>, Alkshendra Maurya <alkshendra@hashnode.com>",
   "license": "MIT",
   "dependencies": {
@@ -87,7 +87,7 @@
     "nock": "^8.0.0",
     "nodemon": "^1.9.2",
     "null-loader": "^0.1.1",
-    "nyc": "^6.4.4",
+    "nyc": "^11.6.0",
     "postcss-cssnext": "^2.6.0",
     "postcss-focus": "^1.0.0",
     "postcss-loader": "^0.9.1",
